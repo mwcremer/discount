@@ -568,6 +568,7 @@ static linkytype specials[] = {
     { "raw:", 4, 0, 0, 0, 0, 0, MKD_NOHTML, 0 },
     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+    { "name:", 5, "<a name=\"", "\"", 0, ">", "</a>", 0, 0 },
     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
 } ;
 
